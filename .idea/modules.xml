@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ClasesAbstractas/ClasesAbstractas.iml" filepath="$PROJECT_DIR$/ClasesAbstractas/ClasesAbstractas.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SOLID-s/SOLID-s.iml" filepath="$PROJECT_DIR$/SOLID-s/SOLID-s.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Single/Single.iml" filepath="$PROJECT_DIR$/Single/Single.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Single-2/Single-2.iml" filepath="$PROJECT_DIR$/Single-2/Single-2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/practicasMag.iml" filepath="$PROJECT_DIR$/practicasMag.iml" />
+    </modules>
+  </component>
+</project>

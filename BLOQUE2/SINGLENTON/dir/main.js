@@ -1,0 +1,14 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const DatabaseNotificacion_1 = require("./DatabaseNotificacion");
+const EmailNotificacion_1 = require("./EmailNotificacion");
+const PhoneNotificacion_1 = require("./PhoneNotificacion");
+const NotificationManager = NotificationManager.getInstance();
+const NotificationManager2 = NotificationManager.getInstance();
+const dbNotification = new DatabaseNotificacion_1.DatabaseNotification(1);
+const emailNotification = new EmailNotificacion_1.EmailNotification(`asmda@nose.com`);
+const phoneNotification = new PhoneNotificacion_1.PhtoneNotification(`9221220832`);
+NotificationManager.sendNotificacion(`new user register`, dbNotification);
+NotificationManager2.sendNotificacion(`confirm your email`, emailNotification);
+NotificationManager.sendNotificacion(`your activation code is 6534`, phoneNotification);
+console.log(`History: `, NotificationManager.getNotificationHistory());
